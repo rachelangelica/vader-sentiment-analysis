@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #329a97;
+    color: #111111;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+.container-lg {
+    width: 600px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1.5px solid #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.container-lg h1{
+    font-size: 2em;
+    font-weight: 750;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1.1em;
+    font-weight: 650;
+    background-color: #329a97;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #277b78;
+    color: white;
+}
+
+.message {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.container-lg .output {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 650;
+    color: #333;
+    text-align: center;
+}
